@@ -69,6 +69,7 @@
             // 
             txtContraseña.Location = new Point(366, 162);
             txtContraseña.Name = "txtContraseña";
+            txtContraseña.PasswordChar = '*';
             txtContraseña.Size = new Size(100, 23);
             txtContraseña.TabIndex = 10;
             // 
@@ -110,7 +111,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "FormInicio";
-            Text = "FormInicio";
+            Text = "Login";
             Load += FormInicio_Load;
             ResumeLayout(false);
             PerformLayout();

@@ -69,6 +69,8 @@ namespace PROYECTO_DAS
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
+            btnNuevo.Visible = false;
+            btnCancelar.Visible = true;
             setearControladoresTexto(true);
             limpiarControladoresTexto();
             btnGuardar.Enabled = true;
@@ -89,7 +91,16 @@ namespace PROYECTO_DAS
                 string nombres = row.Cells["nombres"].Value.ToString();
                 string apellidos = row.Cells["apellidos"].Value.ToString();
                 string contraseña = row.Cells["contraseña"].Value.ToString();
-                int edad = Convert.ToInt32(row.Cells["edad"].Value);
+                // al seleccionar una celda vacia ocurria un error con la edad mostrada
+                int edad;
+                if (row.Cells["edad"].Value != null && !string.IsNullOrWhiteSpace(row.Cells["edad"].Value.ToString()))
+                {
+                    edad = Convert.ToInt32(row.Cells["edad"].Value);
+                }
+                else
+                {
+                    edad = 0;
+                }
 
                 // Asignar los datos al formulario o hacer lo que necesites con ellos.
                 // Por ejemplo, podrías asignar los valores a TextBox en tu formulario.
@@ -229,6 +240,18 @@ namespace PROYECTO_DAS
             {
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            btnNuevo.Visible = true;
+            btnCancelar.Visible = false;
+            btnNuevo.Enabled = true;
+            setearControladoresTexto(false);
+            limpiarControladoresTexto();
+            btnGuardar.Enabled = false;
+            btnEditar.Enabled = true;
+            btnEliminar.Enabled = true;
         }
     }
 }
