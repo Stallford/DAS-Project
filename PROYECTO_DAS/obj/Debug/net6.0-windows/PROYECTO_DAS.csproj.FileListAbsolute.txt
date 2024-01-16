@@ -1,0 +1,96 @@
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.exe
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.deps.json
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.runtimeconfig.json
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.pdb
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\CapaNegocios.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\Capa_Datos.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\CapaNegocios.pdb
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\Capa_Datos.pdb
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.AssemblyReference.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.Asignacion.resources
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormCalendario.resources
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormInicio.resources
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormMenu.resources
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormRegistro.resources
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.GenerateResource.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.GeneratedMSBuildEditorConfig.editorconfig
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.AssemblyInfoInputs.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.AssemblyInfo.cs
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.CoreCompileInputs.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.CopyComplete
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\refint\PROYECTO_DAS.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.pdb
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.genruntimeconfig.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\ref\PROYECTO_DAS.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.exe
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.deps.json
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.runtimeconfig.json
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.pdb
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\CapaNegocios.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\Capa_Datos.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\CapaNegocios.pdb
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\Capa_Datos.pdb
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.Asignacion.resources
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormCalendario.resources
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormInicio.resources
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormMenu.resources
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormRegistro.resources
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.GenerateResource.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.CopyComplete
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\refint\PROYECTO_DAS.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.pdb
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.genruntimeconfig.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\ref\PROYECTO_DAS.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.exe
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.deps.json
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.runtimeconfig.json
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\PROYECTO_DAS.pdb
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\CapaNegocios.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\Capa_Datos.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\CapaNegocios.pdb
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\bin\Debug\net6.0-windows\Capa_Datos.pdb
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.Asignacion.resources
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormCalendario.resources
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormInicio.resources
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormMenu.resources
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.FormRegistro.resources
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.csproj.CopyComplete
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\refint\PROYECTO_DAS.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.pdb
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\PROYECTO_DAS.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\PROYECTO_DAS\obj\Debug\net6.0-windows\ref\PROYECTO_DAS.dll

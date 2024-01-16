@@ -1,0 +1,45 @@
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\Capa_Datos.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\Capa_Datos.pdb
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\Capa_Datos.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\Capa_Datos.pdb
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\CapaNegocios.deps.json
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\CapaNegocios.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\CapaNegocios.pdb
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\Capa_Datos.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\bin\Debug\net6.0\Capa_Datos.pdb
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.csproj.CopyComplete
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\refint\CapaNegocios.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\CapaNegocios.pdb
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\CapaNegocios\obj\Debug\net6.0\ref\CapaNegocios.dll

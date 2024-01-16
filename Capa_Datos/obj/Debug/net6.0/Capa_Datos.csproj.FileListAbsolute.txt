@@ -1,0 +1,36 @@
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\bin\Debug\net6.0\Capa_Datos.deps.json
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\bin\Debug\net6.0\Capa_Datos.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\bin\Debug\net6.0\Capa_Datos.pdb
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.AssemblyReference.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.GeneratedMSBuildEditorConfig.editorconfig
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfoInputs.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfo.cs
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.CoreCompileInputs.cache
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\refint\Capa_Datos.dll
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.pdb
+G:\Documentos\PROYECTO_DAS\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\ref\Capa_Datos.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\bin\Debug\net6.0\Capa_Datos.deps.json
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\bin\Debug\net6.0\Capa_Datos.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\bin\Debug\net6.0\Capa_Datos.pdb
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\refint\Capa_Datos.dll
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.pdb
+C:\Users\Usuario\Downloads\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\ref\Capa_Datos.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\bin\Debug\net6.0\Capa_Datos.deps.json
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\bin\Debug\net6.0\Capa_Datos.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\bin\Debug\net6.0\Capa_Datos.pdb
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\refint\Capa_Datos.dll
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\Capa_Datos.pdb
+C:\Users\Usuario\source\repos\PROYECTO_DAS (1)\PROYECTO_DAS\Capa_Datos\obj\Debug\net6.0\ref\Capa_Datos.dll
