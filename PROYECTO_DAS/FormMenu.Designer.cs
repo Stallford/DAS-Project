@@ -39,82 +39,104 @@
             // 
             // btnHistorial
             // 
-            btnHistorial.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnHistorial.Location = new Point(460, 236);
+            btnHistorial.BackColor = Color.FromArgb(30, 37, 40);
+            btnHistorial.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnHistorial.ForeColor = Color.FromArgb(230, 225, 194);
+            btnHistorial.Location = new Point(455, 273);
+            btnHistorial.Margin = new Padding(3, 4, 3, 4);
             btnHistorial.Name = "btnHistorial";
-            btnHistorial.Size = new Size(211, 38);
+            btnHistorial.Size = new Size(241, 51);
             btnHistorial.TabIndex = 13;
             btnHistorial.Text = "Consulta de historial";
-            btnHistorial.UseVisualStyleBackColor = true;
+            btnHistorial.UseVisualStyleBackColor = false;
             // 
             // btnActas
             // 
-            btnActas.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnActas.Location = new Point(460, 161);
+            btnActas.BackColor = Color.FromArgb(109, 151, 136);
+            btnActas.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnActas.ForeColor = Color.FromArgb(230, 225, 194);
+            btnActas.Location = new Point(455, 173);
+            btnActas.Margin = new Padding(3, 4, 3, 4);
             btnActas.Name = "btnActas";
-            btnActas.Size = new Size(211, 38);
+            btnActas.Size = new Size(241, 51);
             btnActas.TabIndex = 12;
             btnActas.Text = "Ingreso de actas";
-            btnActas.UseVisualStyleBackColor = true;
+            btnActas.UseVisualStyleBackColor = false;
             // 
             // btnSituaciones
             // 
-            btnSituaciones.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSituaciones.Location = new Point(460, 93);
+            btnSituaciones.BackColor = Color.FromArgb(126, 28, 19);
+            btnSituaciones.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSituaciones.ForeColor = Color.FromArgb(230, 225, 194);
+            btnSituaciones.Location = new Point(455, 82);
+            btnSituaciones.Margin = new Padding(3, 4, 3, 4);
             btnSituaciones.Name = "btnSituaciones";
-            btnSituaciones.Size = new Size(211, 38);
+            btnSituaciones.Size = new Size(241, 51);
             btnSituaciones.TabIndex = 11;
             btnSituaciones.Text = "Registro de situaciones";
-            btnSituaciones.UseVisualStyleBackColor = true;
+            btnSituaciones.UseVisualStyleBackColor = false;
             // 
             // btnNotificaciones
             // 
-            btnNotificaciones.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnNotificaciones.Location = new Point(298, 297);
+            btnNotificaciones.BackColor = Color.FromArgb(191, 10, 13);
+            btnNotificaciones.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnNotificaciones.ForeColor = Color.FromArgb(230, 225, 194);
+            btnNotificaciones.Location = new Point(278, 372);
+            btnNotificaciones.Margin = new Padding(3, 4, 3, 4);
             btnNotificaciones.Name = "btnNotificaciones";
-            btnNotificaciones.Size = new Size(211, 38);
+            btnNotificaciones.Size = new Size(241, 51);
             btnNotificaciones.TabIndex = 10;
             btnNotificaciones.Text = "Notificaciones";
-            btnNotificaciones.UseVisualStyleBackColor = true;
+            btnNotificaciones.UseVisualStyleBackColor = false;
             // 
             // btnAsignacion
             // 
-            btnAsignacion.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAsignacion.Location = new Point(143, 236);
+            btnAsignacion.BackColor = Color.FromArgb(126, 28, 19);
+            btnAsignacion.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnAsignacion.ForeColor = Color.FromArgb(230, 225, 194);
+            btnAsignacion.Location = new Point(92, 273);
+            btnAsignacion.Margin = new Padding(3, 4, 3, 4);
             btnAsignacion.Name = "btnAsignacion";
-            btnAsignacion.Size = new Size(211, 38);
+            btnAsignacion.Size = new Size(241, 51);
             btnAsignacion.TabIndex = 9;
             btnAsignacion.Text = "Asignacion de arbitros";
-            btnAsignacion.UseVisualStyleBackColor = true;
+            btnAsignacion.UseVisualStyleBackColor = false;
             btnAsignacion.Click += btnAsignacion_Click;
             // 
             // btnCalendario
             // 
-            btnCalendario.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCalendario.Location = new Point(143, 161);
+            btnCalendario.BackColor = Color.FromArgb(30, 37, 40);
+            btnCalendario.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCalendario.ForeColor = Color.FromArgb(230, 225, 194);
+            btnCalendario.Location = new Point(92, 173);
+            btnCalendario.Margin = new Padding(3, 4, 3, 4);
             btnCalendario.Name = "btnCalendario";
-            btnCalendario.Size = new Size(211, 38);
+            btnCalendario.Size = new Size(241, 51);
             btnCalendario.TabIndex = 8;
             btnCalendario.Text = "Registro de calendario";
-            btnCalendario.UseVisualStyleBackColor = true;
+            btnCalendario.UseVisualStyleBackColor = false;
             btnCalendario.Click += btnCalendario_Click;
             // 
             // btnRegistro
             // 
-            btnRegistro.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnRegistro.Location = new Point(143, 93);
+            btnRegistro.BackColor = Color.FromArgb(109, 151, 136);
+            btnRegistro.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnRegistro.ForeColor = Color.FromArgb(230, 225, 194);
+            btnRegistro.Location = new Point(92, 82);
+            btnRegistro.Margin = new Padding(3, 4, 3, 4);
             btnRegistro.Name = "btnRegistro";
-            btnRegistro.Size = new Size(211, 38);
+            btnRegistro.Size = new Size(241, 51);
             btnRegistro.TabIndex = 7;
             btnRegistro.Text = "Registro de arbitro";
-            btnRegistro.UseVisualStyleBackColor = true;
+            btnRegistro.UseVisualStyleBackColor = false;
             btnRegistro.Click += btnRegistro_Click;
             // 
             // FormMenu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(781, 468);
             Controls.Add(btnHistorial);
             Controls.Add(btnActas);
             Controls.Add(btnSituaciones);
@@ -122,6 +144,7 @@
             Controls.Add(btnAsignacion);
             Controls.Add(btnCalendario);
             Controls.Add(btnRegistro);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormMenu";
             Text = "FormMenu";
             Load += FormMenu_Load;
