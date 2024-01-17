@@ -163,7 +163,7 @@ namespace PROYECTO_DAS
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-                try
+            try
             {
                 if (string.IsNullOrWhiteSpace(txtNombres.Text) ||
                     string.IsNullOrWhiteSpace(txtApellidos.Text) ||
@@ -225,6 +225,37 @@ namespace PROYECTO_DAS
             limpiarControladoresTexto();
             ResetearBotones();
         }
+        private void soloAlfabeto(object sender, KeyPressEventArgs e)
+        {
+            // Verificar si el carácter es una letra, un espacio o no es un control (como la tecla de retroceso)
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && e.KeyChar != ' ')
+            {
+                e.Handled = true;
+            }
+        }
+        private void soloNumeros(object sender, KeyPressEventArgs e)
+        {
+            {
+                // Permitir solo números y teclas de control (por ejemplo, retroceso)
+                if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+                {
+                    e.Handled = true;
+                }
 
+                // Limitar a 2 caracteres
+                if (txtEdad.Text.Length >= 2 && e.KeyChar != (char)Keys.Back)
+                {
+                    e.Handled = true;
+                }
+            }
+        }
+        private void noEspacio(object sender, KeyPressEventArgs e)
+        {
+            // Verificar si el carácter es diferente de un espacio
+            if (e.KeyChar == ' ')
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

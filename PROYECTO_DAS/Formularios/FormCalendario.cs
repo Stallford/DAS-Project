@@ -183,5 +183,14 @@ namespace PROYECTO_DAS
             ReiniciarBotones();
             HabilitarCampos(false);
         }
+        private void soloAlfabeto(object sender, KeyPressEventArgs e)
+        {
+            // Verificar si el carácter es una letra, un espacio o no es un control (como la tecla de retroceso)
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && e.KeyChar != ' ')
+            {
+                e.Handled = true;
+            }
+        }
+
     }
 }

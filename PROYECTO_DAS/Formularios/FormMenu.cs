@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Presentacion.Formularios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -58,6 +59,19 @@ namespace PROYECTO_DAS
             {
                 Asignacion formularioAsignacion = new Asignacion();
                 formularioAsignacion.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnSituaciones_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                FrmSituaciones frmSituaciones = new FrmSituaciones();
+                frmSituaciones.ShowDialog();
             }
             catch (Exception ex)
             {

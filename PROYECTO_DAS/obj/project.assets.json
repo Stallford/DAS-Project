@@ -514,9 +514,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\PROYECTO_DAS\\PROYECTO_DAS.csproj",
-      "projectName": "PROYECTO_DAS",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\PROYECTO_DAS\\PROYECTO_DAS.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\PROYECTO_DAS\\Presentacion.csproj",
+      "projectName": "Presentacion",
+      "projectPath": "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\PROYECTO_DAS\\Presentacion.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\PROYECTO_DAS\\obj\\",
       "projectStyle": "PackageReference",
