@@ -28,37 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             dataGridView1 = new DataGridView();
             btnEliminar = new Button();
-            btnEditar = new Button();
             btnNuevo = new Button();
             btnGuardar = new Button();
             txtEstadio = new TextBox();
             txtClubvisitante = new TextBox();
             txtClublocal = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
+            dtpHora = new DateTimePicker();
             label5 = new Label();
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
             monthCalendar1 = new MonthCalendar();
-            label1 = new Label();
+            groupBox1 = new GroupBox();
+            btnCancelar = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.Location = new Point(17, 317);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(754, 150);
+            dataGridView1.Size = new Size(754, 180);
             dataGridView1.TabIndex = 29;
             dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(657, 256);
+            btnEliminar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEliminar.Location = new Point(459, 261);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(96, 40);
             btnEliminar.TabIndex = 28;
@@ -66,19 +77,10 @@
             btnEliminar.UseVisualStyleBackColor = true;
             btnEliminar.Click += btnEliminar_Click;
             // 
-            // btnEditar
-            // 
-            btnEditar.Location = new Point(401, 256);
-            btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(96, 40);
-            btnEditar.TabIndex = 27;
-            btnEditar.Text = "Editar";
-            btnEditar.UseVisualStyleBackColor = true;
-            btnEditar.Click += btnEditar_Click;
-            // 
             // btnNuevo
             // 
-            btnNuevo.Location = new Point(272, 256);
+            btnNuevo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnNuevo.Location = new Point(219, 261);
             btnNuevo.Name = "btnNuevo";
             btnNuevo.Size = new Size(96, 40);
             btnNuevo.TabIndex = 26;
@@ -88,7 +90,9 @@
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(533, 256);
+            btnGuardar.Enabled = false;
+            btnGuardar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnGuardar.Location = new Point(335, 261);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(96, 40);
             btnGuardar.TabIndex = 25;
@@ -98,127 +102,156 @@
             // 
             // txtEstadio
             // 
-            txtEstadio.Location = new Point(490, 178);
+            txtEstadio.Enabled = false;
+            txtEstadio.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtEstadio.Location = new Point(506, 69);
             txtEstadio.Name = "txtEstadio";
-            txtEstadio.Size = new Size(200, 23);
+            txtEstadio.Size = new Size(265, 29);
             txtEstadio.TabIndex = 24;
             // 
             // txtClubvisitante
             // 
-            txtClubvisitante.Location = new Point(490, 133);
+            txtClubvisitante.Enabled = false;
+            txtClubvisitante.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtClubvisitante.Location = new Point(506, 163);
             txtClubvisitante.Name = "txtClubvisitante";
-            txtClubvisitante.Size = new Size(200, 23);
+            txtClubvisitante.Size = new Size(265, 29);
             txtClubvisitante.TabIndex = 23;
             // 
             // txtClublocal
             // 
-            txtClublocal.Location = new Point(490, 89);
+            txtClublocal.Enabled = false;
+            txtClublocal.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtClublocal.Location = new Point(506, 114);
             txtClublocal.Name = "txtClublocal";
-            txtClublocal.Size = new Size(200, 23);
+            txtClublocal.Size = new Size(265, 29);
             txtClublocal.TabIndex = 22;
             // 
-            // dateTimePicker1
+            // dtpHora
             // 
-            dateTimePicker1.Location = new Point(490, 47);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 21;
+            dtpHora.CustomFormat = "";
+            dtpHora.Enabled = false;
+            dtpHora.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dtpHora.Format = DateTimePickerFormat.Time;
+            dtpHora.Location = new Point(506, 24);
+            dtpHora.Name = "dtpHora";
+            dtpHora.Size = new Size(265, 29);
+            dtpHora.TabIndex = 21;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(338, 181);
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(350, 72);
             label5.Name = "label5";
-            label5.Size = new Size(111, 15);
+            label5.Size = new Size(150, 21);
             label5.TabIndex = 20;
-            label5.Text = "Nombre del estadio";
+            label5.Text = "Nombre del estadio:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(338, 136);
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(309, 166);
             label4.Name = "label4";
-            label4.Size = new Size(146, 15);
+            label4.Size = new Size(191, 21);
             label4.TabIndex = 19;
-            label4.Text = "Nombre del club visitante ";
+            label4.Text = "Nombre del club visitante:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(338, 92);
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(335, 117);
             label3.Name = "label3";
-            label3.Size = new Size(124, 15);
+            label3.Size = new Size(165, 21);
             label3.TabIndex = 18;
-            label3.Text = "Nombre del club local";
+            label3.Text = "Nombre del club local:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(338, 53);
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(354, 30);
             label2.Name = "label2";
-            label2.Size = new Size(109, 15);
+            label2.Size = new Size(146, 21);
             label2.TabIndex = 17;
-            label2.Text = "Hora del encuentro";
+            label2.Text = "Hora del encuentro:";
             // 
             // monthCalendar1
             // 
-            monthCalendar1.Location = new Point(17, 53);
+            monthCalendar1.Enabled = false;
+            monthCalendar1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            monthCalendar1.Location = new Point(17, 30);
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 16;
             // 
-            // label1
+            // groupBox1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(25, 20);
-            label1.Name = "label1";
-            label1.Size = new Size(111, 15);
-            label1.TabIndex = 15;
-            label1.Text = "Fecha de encuentro";
+            groupBox1.Controls.Add(txtEstadio);
+            groupBox1.Controls.Add(txtClubvisitante);
+            groupBox1.Controls.Add(txtClublocal);
+            groupBox1.Controls.Add(dtpHora);
+            groupBox1.Controls.Add(label5);
+            groupBox1.Controls.Add(label4);
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(monthCalendar1);
+            groupBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            groupBox1.Location = new Point(0, 23);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(778, 217);
+            groupBox1.TabIndex = 30;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Fecha del encuentro:";
+            // 
+            // btnCancelar
+            // 
+            btnCancelar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCancelar.Location = new Point(219, 261);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(96, 40);
+            btnCancelar.TabIndex = 31;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Visible = false;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // FormCalendario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 501);
+            Controls.Add(btnCancelar);
+            Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
             Controls.Add(btnEliminar);
-            Controls.Add(btnEditar);
             Controls.Add(btnNuevo);
             Controls.Add(btnGuardar);
-            Controls.Add(txtEstadio);
-            Controls.Add(txtClubvisitante);
-            Controls.Add(txtClublocal);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(monthCalendar1);
-            Controls.Add(label1);
             Name = "FormCalendario";
             Text = "FormCalendario";
-            Load += FormCalendario_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private DataGridView dataGridView1;
         private Button btnEliminar;
-        private Button btnEditar;
         private Button btnNuevo;
         private Button btnGuardar;
         private TextBox txtEstadio;
         private TextBox txtClubvisitante;
         private TextBox txtClublocal;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtpHora;
         private Label label5;
         private Label label4;
         private Label label3;
         private Label label2;
         private MonthCalendar monthCalendar1;
-        private Label label1;
+        private GroupBox groupBox1;
+        private Button btnCancelar;
     }
 }

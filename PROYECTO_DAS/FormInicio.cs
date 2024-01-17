@@ -19,15 +19,17 @@ namespace PROYECTO_DAS
             InitializeComponent();
         }
 
-        private void FormInicio_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             try
             {
+                if (string.IsNullOrWhiteSpace(txtUsuario.Text) ||
+                    string.IsNullOrWhiteSpace(txtContraseña.Text))
+                {
+                    MessageBox.Show("Por favor, complete todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
                 string usuario = txtUsuario.Text;
                 string contraseña = txtContraseña.Text;
 
@@ -43,12 +45,20 @@ namespace PROYECTO_DAS
                 else
                 {
                     MessageBox.Show("Credenciales incorrectas. Por favor, inténtelo de nuevo.");
+                    txtUsuario.Text = string.Empty;
+                    txtContraseña.Text = string.Empty;
+                    return;
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

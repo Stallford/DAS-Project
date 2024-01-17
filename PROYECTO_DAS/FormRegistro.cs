@@ -22,6 +22,15 @@ namespace PROYECTO_DAS
             InitializeComponent();
             ActualizarDataGridViewArbitro();
             btnGuardar.Enabled = false;
+            btnEliminar.Enabled = false;
+        }
+        private void ResetearBotones()
+        {
+            btnNuevo.Visible = true;
+            btnNuevo.Enabled = true;
+            btnCancelar.Visible = false;
+            btnEliminar.Enabled = false;
+            btnGuardar.Enabled = false;
         }
         private void setearControladoresTexto(bool setear)
         {
@@ -75,12 +84,17 @@ namespace PROYECTO_DAS
             limpiarControladoresTexto();
             btnGuardar.Enabled = true;
             btnEliminar.Enabled = false;
-            btnEditar.Enabled = false;
             is_nuevo = true;
         }
 
         private void dgvArbitro_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            is_nuevo = false;
+            btnGuardar.Enabled = true;
+            btnEliminar.Enabled = true;
+            btnNuevo.Visible = false;
+            btnCancelar.Visible = true;
+            setearControladoresTexto(true);
             if (e.RowIndex >= 0 && e.RowIndex < dgvArbitro.Rows.Count)
             {
 
@@ -117,52 +131,6 @@ namespace PROYECTO_DAS
             }
         }
 
-        private void btnEditar_Click(object sender, EventArgs e)
-        {
-            txtNombres.Enabled = false;
-            txtApellidos.Enabled = false;
-            txtCorreo.Enabled = true;
-            txtContraseña.Enabled = true;
-            txtEdad.Enabled = true;
-            btnEditar.Enabled = false;
-            btnGuardar.Enabled = true;
-
-            // Establecer is_nuevo a false cuando se está editando
-            is_nuevo = false;
-            try
-            {
-                obj_arbitro.Nombres = txtNombres.Text;
-                obj_arbitro.Apellidos = txtApellidos.Text;
-
-                var resultado = obj_arbitro.getListaArbitroFiltrada(obj_arbitro);
-
-                if (resultado.Rows.Count > 0)
-                {
-                    txtId.Text = resultado.Rows[0]["id"].ToString();
-                    txtNombres.Text = resultado.Rows[0]["nombres"].ToString();
-                    txtApellidos.Text = resultado.Rows[0]["apellidos"].ToString();
-                    txtCorreo.Text = resultado.Rows[0]["correo"].ToString();
-                    txtContraseña.Text = resultado.Rows[0]["contraseña"].ToString();
-                    txtEdad.Text = resultado.Rows[0]["edad"].ToString();
-
-                    btnEliminar.Enabled = true;
-                    btnEditar.Enabled = true;
-
-                    // Deshabilitar la edición si no se encuentra un usuario
-                    txtNombres.Enabled = false;
-                    txtApellidos.Enabled = false;
-                }
-                else
-                {
-                    MessageBox.Show("No se encontraron resultados para los nombres y apellidos proporcionados.");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al buscar el Arbitro: " + ex.Message);
-            }
-        }
-
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             MessageBoxButtons botones = MessageBoxButtons.YesNo;
@@ -176,11 +144,15 @@ namespace PROYECTO_DAS
                     if (obj_arbitro.EliminarArbitro(obj_arbitro))
                     {
                         MessageBox.Show("Registro Eliminado con Exito");
+                        setearControladoresTexto(false);
+                        ResetearBotones();
                         limpiarControladoresTexto();
                         ActualizarDataGridViewArbitro();
                     }
                     else
                         MessageBox.Show("Registro No Pudo ser Eliminado");
+                    ResetearBotones();
+                    setearControladoresTexto(false);
                 }
                 catch (Exception ex)
                 {
@@ -191,9 +163,17 @@ namespace PROYECTO_DAS
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            try
+                try
             {
-
+                if (string.IsNullOrWhiteSpace(txtNombres.Text) ||
+                    string.IsNullOrWhiteSpace(txtApellidos.Text) ||
+                    string.IsNullOrWhiteSpace(txtCorreo.Text) ||
+                    string.IsNullOrWhiteSpace(txtContraseña.Text) ||
+                    string.IsNullOrWhiteSpace(txtEdad.Text))
+                {
+                    MessageBox.Show("Por favor, complete todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
                 if (is_nuevo)
                 {
                     obj_arbitro.Nombres = txtNombres.Text;
@@ -208,10 +188,8 @@ namespace PROYECTO_DAS
                         MessageBox.Show("Registro Creado con Exito");
                         setearControladoresTexto(false);
                         limpiarControladoresTexto();
-                        btnGuardar.Enabled = false;
-                        btnEditar.Enabled = true;
-                        btnEliminar.Enabled = true;
                         ActualizarDataGridViewArbitro();
+                        ResetearBotones();
                     }
                     else
                         MessageBox.Show("No se Creo el Registro");
@@ -231,8 +209,7 @@ namespace PROYECTO_DAS
                         ActualizarDataGridViewArbitro();
                         limpiarControladoresTexto();
                         setearControladoresTexto(false);
-                        btnGuardar.Enabled = false;
-                        btnEditar.Enabled = true;
+                        ResetearBotones();
                     }
                 }
             }
@@ -244,14 +221,10 @@ namespace PROYECTO_DAS
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            btnNuevo.Visible = true;
-            btnCancelar.Visible = false;
-            btnNuevo.Enabled = true;
             setearControladoresTexto(false);
             limpiarControladoresTexto();
-            btnGuardar.Enabled = false;
-            btnEditar.Enabled = true;
-            btnEliminar.Enabled = true;
+            ResetearBotones();
         }
+
     }
 }

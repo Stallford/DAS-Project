@@ -39,45 +39,50 @@
             // 
             // btnHistorial
             // 
-            btnHistorial.Location = new Point(424, 204);
+            btnHistorial.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnHistorial.Location = new Point(460, 236);
             btnHistorial.Name = "btnHistorial";
-            btnHistorial.Size = new Size(141, 23);
+            btnHistorial.Size = new Size(211, 38);
             btnHistorial.TabIndex = 13;
             btnHistorial.Text = "Consulta de historial";
             btnHistorial.UseVisualStyleBackColor = true;
             // 
             // btnActas
             // 
-            btnActas.Location = new Point(424, 129);
+            btnActas.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnActas.Location = new Point(460, 161);
             btnActas.Name = "btnActas";
-            btnActas.Size = new Size(141, 23);
+            btnActas.Size = new Size(211, 38);
             btnActas.TabIndex = 12;
             btnActas.Text = "Ingreso de actas";
             btnActas.UseVisualStyleBackColor = true;
             // 
             // btnSituaciones
             // 
-            btnSituaciones.Location = new Point(424, 61);
+            btnSituaciones.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSituaciones.Location = new Point(460, 93);
             btnSituaciones.Name = "btnSituaciones";
-            btnSituaciones.Size = new Size(141, 23);
+            btnSituaciones.Size = new Size(211, 38);
             btnSituaciones.TabIndex = 11;
             btnSituaciones.Text = "Registro de situaciones";
             btnSituaciones.UseVisualStyleBackColor = true;
             // 
             // btnNotificaciones
             // 
-            btnNotificaciones.Location = new Point(107, 264);
+            btnNotificaciones.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnNotificaciones.Location = new Point(298, 297);
             btnNotificaciones.Name = "btnNotificaciones";
-            btnNotificaciones.Size = new Size(141, 23);
+            btnNotificaciones.Size = new Size(211, 38);
             btnNotificaciones.TabIndex = 10;
             btnNotificaciones.Text = "Notificaciones";
             btnNotificaciones.UseVisualStyleBackColor = true;
             // 
             // btnAsignacion
             // 
-            btnAsignacion.Location = new Point(107, 204);
+            btnAsignacion.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnAsignacion.Location = new Point(143, 236);
             btnAsignacion.Name = "btnAsignacion";
-            btnAsignacion.Size = new Size(141, 23);
+            btnAsignacion.Size = new Size(211, 38);
             btnAsignacion.TabIndex = 9;
             btnAsignacion.Text = "Asignacion de arbitros";
             btnAsignacion.UseVisualStyleBackColor = true;
@@ -85,9 +90,10 @@
             // 
             // btnCalendario
             // 
-            btnCalendario.Location = new Point(107, 129);
+            btnCalendario.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalendario.Location = new Point(143, 161);
             btnCalendario.Name = "btnCalendario";
-            btnCalendario.Size = new Size(141, 23);
+            btnCalendario.Size = new Size(211, 38);
             btnCalendario.TabIndex = 8;
             btnCalendario.Text = "Registro de calendario";
             btnCalendario.UseVisualStyleBackColor = true;
@@ -95,9 +101,10 @@
             // 
             // btnRegistro
             // 
-            btnRegistro.Location = new Point(107, 61);
+            btnRegistro.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnRegistro.Location = new Point(143, 93);
             btnRegistro.Name = "btnRegistro";
-            btnRegistro.Size = new Size(141, 23);
+            btnRegistro.Size = new Size(211, 38);
             btnRegistro.TabIndex = 7;
             btnRegistro.Text = "Registro de arbitro";
             btnRegistro.UseVisualStyleBackColor = true;

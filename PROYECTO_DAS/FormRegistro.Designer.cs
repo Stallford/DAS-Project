@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnEditar = new Button();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             dgvArbitro = new DataGridView();
             btnEliminar = new Button();
             btnGuardar = new Button();
@@ -51,29 +51,29 @@
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // btnEditar
-            // 
-            btnEditar.Location = new Point(532, 147);
-            btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(93, 40);
-            btnEditar.TabIndex = 34;
-            btnEditar.Text = "Editar";
-            btnEditar.UseVisualStyleBackColor = true;
-            btnEditar.Click += btnEditar_Click;
-            // 
             // dgvArbitro
             // 
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgvArbitro.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvArbitro.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvArbitro.Location = new Point(16, 214);
             dgvArbitro.Name = "dgvArbitro";
+            dgvArbitro.RowTemplate.DefaultCellStyle.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             dgvArbitro.RowTemplate.Height = 25;
-            dgvArbitro.Size = new Size(731, 202);
+            dgvArbitro.Size = new Size(772, 202);
             dgvArbitro.TabIndex = 33;
             dgvArbitro.CellClick += dgvArbitro_CellClick;
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(419, 147);
+            btnEliminar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEliminar.Location = new Point(466, 159);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(93, 40);
             btnEliminar.TabIndex = 32;
@@ -83,7 +83,8 @@
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(295, 147);
+            btnGuardar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnGuardar.Location = new Point(346, 159);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(93, 40);
             btnGuardar.TabIndex = 31;
@@ -93,7 +94,8 @@
             // 
             // btnNuevo
             // 
-            btnNuevo.Location = new Point(172, 147);
+            btnNuevo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnNuevo.Location = new Point(231, 159);
             btnNuevo.Name = "btnNuevo";
             btnNuevo.Size = new Size(93, 40);
             btnNuevo.TabIndex = 30;
@@ -104,104 +106,116 @@
             // txtId
             // 
             txtId.Enabled = false;
-            txtId.Location = new Point(642, 63);
+            txtId.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtId.Location = new Point(706, 77);
             txtId.Name = "txtId";
-            txtId.Size = new Size(100, 23);
+            txtId.Size = new Size(64, 29);
             txtId.TabIndex = 29;
             // 
             // txtEdad
             // 
             txtEdad.Enabled = false;
-            txtEdad.Location = new Point(642, 19);
+            txtEdad.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtEdad.Location = new Point(706, 33);
             txtEdad.Name = "txtEdad";
-            txtEdad.Size = new Size(100, 23);
+            txtEdad.Size = new Size(64, 29);
             txtEdad.TabIndex = 28;
             // 
             // txtContraseña
             // 
             txtContraseña.Enabled = false;
-            txtContraseña.Location = new Point(329, 63);
+            txtContraseña.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtContraseña.Location = new Point(448, 77);
             txtContraseña.Name = "txtContraseña";
-            txtContraseña.Size = new Size(194, 23);
+            txtContraseña.Size = new Size(194, 29);
             txtContraseña.TabIndex = 27;
             // 
             // txtCorreo
             // 
             txtCorreo.Enabled = false;
-            txtCorreo.Location = new Point(329, 19);
+            txtCorreo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtCorreo.Location = new Point(448, 33);
             txtCorreo.Name = "txtCorreo";
-            txtCorreo.Size = new Size(194, 23);
+            txtCorreo.Size = new Size(194, 29);
             txtCorreo.TabIndex = 26;
             // 
             // txtApellidos
             // 
             txtApellidos.Enabled = false;
-            txtApellidos.Location = new Point(73, 63);
+            txtApellidos.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtApellidos.Location = new Point(91, 79);
             txtApellidos.Name = "txtApellidos";
-            txtApellidos.Size = new Size(100, 23);
+            txtApellidos.Size = new Size(202, 29);
             txtApellidos.TabIndex = 25;
             // 
             // txtNombres
             // 
             txtNombres.Enabled = false;
-            txtNombres.Location = new Point(73, 19);
+            txtNombres.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNombres.Location = new Point(92, 33);
             txtNombres.Name = "txtNombres";
-            txtNombres.Size = new Size(100, 23);
+            txtNombres.Size = new Size(201, 29);
             txtNombres.TabIndex = 24;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(603, 66);
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(674, 82);
             label6.Name = "label6";
-            label6.Size = new Size(17, 15);
+            label6.Size = new Size(26, 21);
             label6.TabIndex = 23;
-            label6.Text = "Id";
+            label6.Text = "Id:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(603, 22);
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(656, 36);
             label5.Name = "label5";
-            label5.Size = new Size(33, 15);
+            label5.Size = new Size(47, 21);
             label5.TabIndex = 22;
-            label5.Text = "Edad";
+            label5.Text = "Edad:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(218, 66);
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(350, 82);
             label4.Name = "label4";
-            label4.Size = new Size(67, 15);
+            label4.Size = new Size(92, 21);
             label4.TabIndex = 21;
-            label4.Text = "Contraseña";
+            label4.Text = "Contraseña:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(218, 22);
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(301, 36);
             label3.Name = "label3";
-            label3.Size = new Size(105, 15);
+            label3.Size = new Size(141, 21);
             label3.TabIndex = 20;
-            label3.Text = "Correo Electronico";
+            label3.Text = "Correo Electronico:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(11, 66);
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(11, 82);
             label2.Name = "label2";
-            label2.Size = new Size(56, 15);
+            label2.Size = new Size(77, 21);
             label2.TabIndex = 19;
-            label2.Text = "Apellidos";
+            label2.Text = "Apellidos:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(11, 22);
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(11, 36);
             label1.Name = "label1";
-            label1.Size = new Size(56, 15);
+            label1.Size = new Size(78, 21);
             label1.TabIndex = 18;
-            label1.Text = "Nombres";
+            label1.Text = "Nombres:";
             // 
             // groupBox1
             // 
@@ -217,16 +231,18 @@
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(5, 23);
+            groupBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            groupBox1.Location = new Point(5, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(760, 104);
+            groupBox1.Size = new Size(783, 129);
             groupBox1.TabIndex = 35;
             groupBox1.TabStop = false;
             groupBox1.Text = "Datos del Arbitro:";
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(172, 147);
+            btnCancelar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCancelar.Location = new Point(231, 159);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(93, 40);
             btnCancelar.TabIndex = 36;
@@ -242,7 +258,6 @@
             ClientSize = new Size(800, 450);
             Controls.Add(btnCancelar);
             Controls.Add(groupBox1);
-            Controls.Add(btnEditar);
             Controls.Add(dgvArbitro);
             Controls.Add(btnEliminar);
             Controls.Add(btnGuardar);
@@ -257,8 +272,6 @@
         }
 
         #endregion
-
-        private Button btnEditar;
         private DataGridView dgvArbitro;
         private Button btnEliminar;
         private Button btnGuardar;

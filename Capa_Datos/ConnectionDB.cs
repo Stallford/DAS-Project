@@ -3,7 +3,12 @@ namespace Capa_Datos
 {
     public class ConnectionDB
     {
-        internal SqlConnection cadena_conexion = new SqlConnection("server=DESKTOP-7OVDKFG; database= DAS;Integrated Security=true");
+        private SqlConnection cadena_conexion = new SqlConnection("server=DESKTOP-7OVDKFG; database=DAS;Integrated Security=true");
+
+        public SqlConnection ObtenerConexion()
+        {
+            return cadena_conexion;
+        }
 
         public SqlConnection AbrirConexion()
         {
@@ -17,7 +22,6 @@ namespace Capa_Datos
             if (cadena_conexion.State == System.Data.ConnectionState.Open)
                 cadena_conexion.Close();
             return cadena_conexion;
-
         }
     }
 }

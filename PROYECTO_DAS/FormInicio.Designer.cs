@@ -28,103 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button2 = new Button();
-            btnIngresar = new Button();
-            label3 = new Label();
-            txtContraseña = new TextBox();
-            txtUsuario = new TextBox();
-            label2 = new Label();
             label1 = new Label();
+            label2 = new Label();
+            txtUsuario = new TextBox();
+            txtContraseña = new TextBox();
+            btnIngresar = new Button();
+            btnSalir = new Button();
             SuspendLayout();
             // 
-            // button2
+            // label1
             // 
-            button2.Location = new Point(407, 214);
-            button2.Name = "button2";
-            button2.Size = new Size(81, 38);
-            button2.TabIndex = 13;
-            button2.Text = "Salir";
-            button2.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(294, 115);
+            label1.Name = "label1";
+            label1.Size = new Size(67, 21);
+            label1.TabIndex = 7;
+            label1.Text = "Usuario:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(269, 161);
+            label2.Name = "label2";
+            label2.Size = new Size(92, 21);
+            label2.TabIndex = 8;
+            label2.Text = "Contraseña:";
+            // 
+            // txtUsuario
+            // 
+            txtUsuario.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtUsuario.Location = new Point(367, 112);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(184, 29);
+            txtUsuario.TabIndex = 9;
+            // 
+            // txtContraseña
+            // 
+            txtContraseña.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtContraseña.Location = new Point(367, 158);
+            txtContraseña.Name = "txtContraseña";
+            txtContraseña.PasswordChar = '*';
+            txtContraseña.Size = new Size(184, 29);
+            txtContraseña.TabIndex = 10;
             // 
             // btnIngresar
             // 
-            btnIngresar.Location = new Point(296, 214);
+            btnIngresar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnIngresar.Location = new Point(294, 221);
             btnIngresar.Name = "btnIngresar";
-            btnIngresar.Size = new Size(80, 38);
+            btnIngresar.Size = new Size(104, 35);
             btnIngresar.TabIndex = 12;
             btnIngresar.Text = "Ingresar";
             btnIngresar.UseVisualStyleBackColor = true;
             btnIngresar.Click += btnIngresar_Click;
             // 
-            // label3
+            // btnSalir
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(354, 47);
-            label3.Name = "label3";
-            label3.Size = new Size(76, 15);
-            label3.TabIndex = 11;
-            label3.Text = "Iniciar Sesion";
-            // 
-            // txtContraseña
-            // 
-            txtContraseña.Location = new Point(366, 162);
-            txtContraseña.Name = "txtContraseña";
-            txtContraseña.PasswordChar = '*';
-            txtContraseña.Size = new Size(100, 23);
-            txtContraseña.TabIndex = 10;
-            // 
-            // txtUsuario
-            // 
-            txtUsuario.Location = new Point(366, 111);
-            txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(100, 23);
-            txtUsuario.TabIndex = 9;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(296, 165);
-            label2.Name = "label2";
-            label2.Size = new Size(67, 15);
-            label2.TabIndex = 8;
-            label2.Text = "Contraseña";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(296, 114);
-            label1.Name = "label1";
-            label1.Size = new Size(47, 15);
-            label1.TabIndex = 7;
-            label1.Text = "Usuario";
+            btnSalir.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSalir.Location = new Point(428, 221);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(104, 35);
+            btnSalir.TabIndex = 13;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // FormInicio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button2);
+            Controls.Add(btnSalir);
             Controls.Add(btnIngresar);
-            Controls.Add(label3);
             Controls.Add(txtContraseña);
+            Controls.Add(label1);
             Controls.Add(txtUsuario);
             Controls.Add(label2);
-            Controls.Add(label1);
             Name = "FormInicio";
             Text = "Login";
-            Load += FormInicio_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button2;
-        private Button btnIngresar;
-        private Label label3;
-        private TextBox txtContraseña;
-        private TextBox txtUsuario;
-        private Label label2;
         private Label label1;
+        private Label label2;
+        private TextBox txtUsuario;
+        private TextBox txtContraseña;
+        private Button btnIngresar;
+        private Button btnSalir;
     }
 }
