@@ -504,6 +504,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "CapaNegocios >= 1.0.0",
+      "Capa_Datos >= 1.0.0",
       "System.Data.SqlClient >= 4.8.6"
     ]
   },
@@ -541,6 +542,9 @@
           "projectReferences": {
             "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\CapaNegocios\\CapaNegocios.csproj": {
               "projectPath": "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\CapaNegocios\\CapaNegocios.csproj"
+            },
+            "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\Capa_Datos\\Capa_Datos.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\Capa_Datos\\Capa_Datos.csproj"
             }
           }
         }

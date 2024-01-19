@@ -28,107 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            groupBox2 = new GroupBox();
+            cmbLugar1 = new ComboBox();
+            txtLocal = new TextBox();
+            txtVisitante = new TextBox();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            groupBox3 = new GroupBox();
+            txtJustifiacion = new TextBox();
+            btnLimpiar = new Button();
+            btnEnviar = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             cmbNombre = new ComboBox();
             txtApellidos = new TextBox();
-            txtCedula = new TextBox();
+            txtCorreo = new TextBox();
             groupBox1 = new GroupBox();
-            groupBox2 = new GroupBox();
-            txtLocal = new TextBox();
-            txtVisitante = new TextBox();
-            cmbLugar = new ComboBox();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            rtxJustificante = new RichTextBox();
-            groupBox3 = new GroupBox();
-            btnLimpiar = new Button();
-            btnEnviar = new Button();
-            groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
+            groupBox1.SuspendLayout();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(16, 35);
-            label1.Name = "label1";
-            label1.Size = new Size(71, 21);
-            label1.TabIndex = 0;
-            label1.Text = "Nombre:";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(10, 83);
-            label2.Name = "label2";
-            label2.Size = new Size(77, 21);
-            label2.TabIndex = 1;
-            label2.Text = "Apellidos:";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(26, 129);
-            label3.Name = "label3";
-            label3.Size = new Size(61, 21);
-            label3.TabIndex = 2;
-            label3.Text = "Cédula:";
-            // 
-            // cmbNombre
-            // 
-            cmbNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            cmbNombre.FormattingEnabled = true;
-            cmbNombre.Location = new Point(93, 32);
-            cmbNombre.Name = "cmbNombre";
-            cmbNombre.Size = new Size(231, 29);
-            cmbNombre.TabIndex = 3;
-            // 
-            // txtApellidos
-            // 
-            txtApellidos.Enabled = false;
-            txtApellidos.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtApellidos.Location = new Point(93, 80);
-            txtApellidos.Name = "txtApellidos";
-            txtApellidos.Size = new Size(231, 29);
-            txtApellidos.TabIndex = 4;
-            // 
-            // txtCedula
-            // 
-            txtCedula.Enabled = false;
-            txtCedula.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtCedula.Location = new Point(93, 129);
-            txtCedula.Name = "txtCedula";
-            txtCedula.Size = new Size(231, 29);
-            txtCedula.TabIndex = 5;
-            // 
-            // groupBox1
-            // 
-            groupBox1.Controls.Add(txtCedula);
-            groupBox1.Controls.Add(txtApellidos);
-            groupBox1.Controls.Add(cmbNombre);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            groupBox1.Location = new Point(16, 25);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(341, 189);
-            groupBox1.TabIndex = 6;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Datos del Solicitante:";
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(cmbLugar1);
             groupBox2.Controls.Add(txtLocal);
             groupBox2.Controls.Add(txtVisitante);
-            groupBox2.Controls.Add(cmbLugar);
             groupBox2.Controls.Add(label4);
             groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(label6);
@@ -139,6 +66,18 @@
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             groupBox2.Text = "Partido Asignado:";
+            groupBox2.Enter += groupBox2_Enter;
+            // 
+            // cmbLugar1
+            // 
+            cmbLugar1.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbLugar1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            cmbLugar1.FormattingEnabled = true;
+            cmbLugar1.Location = new Point(141, 32);
+            cmbLugar1.Name = "cmbLugar1";
+            cmbLugar1.Size = new Size(231, 29);
+            cmbLugar1.TabIndex = 6;
+            cmbLugar1.SelectedIndexChanged += cmbLugar1_SelectedIndexChanged;
             // 
             // txtLocal
             // 
@@ -157,15 +96,6 @@
             txtVisitante.Name = "txtVisitante";
             txtVisitante.Size = new Size(231, 29);
             txtVisitante.TabIndex = 4;
-            // 
-            // cmbLugar
-            // 
-            cmbLugar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            cmbLugar.FormattingEnabled = true;
-            cmbLugar.Location = new Point(141, 32);
-            cmbLugar.Name = "cmbLugar";
-            cmbLugar.Size = new Size(231, 29);
-            cmbLugar.TabIndex = 3;
             // 
             // label4
             // 
@@ -197,19 +127,9 @@
             label6.TabIndex = 0;
             label6.Text = "Lugar:";
             // 
-            // rtxJustificante
-            // 
-            rtxJustificante.Enabled = false;
-            rtxJustificante.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            rtxJustificante.Location = new Point(6, 28);
-            rtxJustificante.Name = "rtxJustificante";
-            rtxJustificante.Size = new Size(753, 123);
-            rtxJustificante.TabIndex = 8;
-            rtxJustificante.Text = "";
-            // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(rtxJustificante);
+            groupBox3.Controls.Add(txtJustifiacion);
             groupBox3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             groupBox3.Location = new Point(16, 225);
             groupBox3.Name = "groupBox3";
@@ -217,6 +137,14 @@
             groupBox3.TabIndex = 9;
             groupBox3.TabStop = false;
             groupBox3.Text = "Justificante:";
+            // 
+            // txtJustifiacion
+            // 
+            txtJustifiacion.Location = new Point(16, 28);
+            txtJustifiacion.Multiline = true;
+            txtJustifiacion.Name = "txtJustifiacion";
+            txtJustifiacion.Size = new Size(729, 120);
+            txtJustifiacion.TabIndex = 0;
             // 
             // btnLimpiar
             // 
@@ -228,8 +156,9 @@
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(102, 31);
             btnLimpiar.TabIndex = 31;
-            btnLimpiar.Text = "Limpiar";
+            btnLimpiar.Text = "Salir";
             btnLimpiar.UseVisualStyleBackColor = false;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // btnEnviar
             // 
@@ -243,6 +172,82 @@
             btnEnviar.TabIndex = 30;
             btnEnviar.Text = "Enviar";
             btnEnviar.UseVisualStyleBackColor = false;
+            btnEnviar.Click += btnEnviar_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(16, 35);
+            label1.Name = "label1";
+            label1.Size = new Size(71, 21);
+            label1.TabIndex = 0;
+            label1.Text = "Nombre:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(10, 83);
+            label2.Name = "label2";
+            label2.Size = new Size(77, 21);
+            label2.TabIndex = 1;
+            label2.Text = "Apellidos:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(26, 129);
+            label3.Name = "label3";
+            label3.Size = new Size(61, 21);
+            label3.TabIndex = 2;
+            label3.Text = "Correo:";
+            // 
+            // cmbNombre
+            // 
+            cmbNombre.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            cmbNombre.FormattingEnabled = true;
+            cmbNombre.Location = new Point(93, 32);
+            cmbNombre.Name = "cmbNombre";
+            cmbNombre.Size = new Size(231, 29);
+            cmbNombre.TabIndex = 3;
+            cmbNombre.SelectedIndexChanged += cmbNombre_SelectedIndexChanged;
+            // 
+            // txtApellidos
+            // 
+            txtApellidos.Enabled = false;
+            txtApellidos.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtApellidos.Location = new Point(93, 80);
+            txtApellidos.Name = "txtApellidos";
+            txtApellidos.Size = new Size(231, 29);
+            txtApellidos.TabIndex = 4;
+            // 
+            // txtCorreo
+            // 
+            txtCorreo.Enabled = false;
+            txtCorreo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtCorreo.Location = new Point(93, 129);
+            txtCorreo.Name = "txtCorreo";
+            txtCorreo.Size = new Size(231, 29);
+            txtCorreo.TabIndex = 5;
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(txtCorreo);
+            groupBox1.Controls.Add(txtApellidos);
+            groupBox1.Controls.Add(cmbNombre);
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(label1);
+            groupBox1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            groupBox1.Location = new Point(16, 25);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(341, 189);
+            groupBox1.TabIndex = 6;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Datos del Solicitante:";
             // 
             // FrmSituaciones
             // 
@@ -257,23 +262,17 @@
             Controls.Add(groupBox1);
             Name = "FrmSituaciones";
             Text = "FrmSituaciones";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            Load += FrmSituaciones_Load;
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private ComboBox cmbNombre;
-        private TextBox txtApellidos;
-        private TextBox txtCedula;
-        private GroupBox groupBox1;
         private GroupBox groupBox2;
         private TextBox txtLocal;
         private TextBox txtVisitante;
@@ -281,9 +280,17 @@
         private Label label4;
         private Label label5;
         private Label label6;
-        private RichTextBox rtxJustificante;
         private GroupBox groupBox3;
         private Button btnLimpiar;
         private Button btnEnviar;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private ComboBox cmbNombre;
+        private TextBox txtApellidos;
+        private TextBox txtCorreo;
+        private GroupBox groupBox1;
+        private TextBox txtJustifiacion;
+        private ComboBox cmbLugar1;
     }
 }

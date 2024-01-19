@@ -192,5 +192,9 @@ namespace PROYECTO_DAS
             }
         }
 
+        private void FormCalendario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

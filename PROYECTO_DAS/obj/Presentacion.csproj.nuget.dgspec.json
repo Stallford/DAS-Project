@@ -168,6 +168,9 @@
             "projectReferences": {
               "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\CapaNegocios\\CapaNegocios.csproj": {
                 "projectPath": "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\CapaNegocios\\CapaNegocios.csproj"
+              },
+              "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\Capa_Datos\\Capa_Datos.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\source\\repos\\PROYECTO_DAS (1)\\PROYECTO_DAS\\Capa_Datos\\Capa_Datos.csproj"
               }
             }
           }

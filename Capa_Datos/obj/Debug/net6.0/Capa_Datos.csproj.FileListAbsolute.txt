@@ -46,3 +46,16 @@ C:\Users\Usuario\Desktop\DAS-Project\DAS-Project\Capa_Datos\obj\Debug\net6.0\Cap
 C:\Users\Usuario\Desktop\DAS-Project\DAS-Project\Capa_Datos\obj\Debug\net6.0\refint\Capa_Datos.dll
 C:\Users\Usuario\Desktop\DAS-Project\DAS-Project\Capa_Datos\obj\Debug\net6.0\Capa_Datos.pdb
 C:\Users\Usuario\Desktop\DAS-Project\DAS-Project\Capa_Datos\obj\Debug\net6.0\ref\Capa_Datos.dll
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\bin\Debug\net6.0\Capa_Datos.deps.json
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\bin\Debug\net6.0\Capa_Datos.dll
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\bin\Debug\net6.0\Capa_Datos.pdb
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\Capa_Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\Capa_Datos.AssemblyInfo.cs
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\Capa_Datos.sourcelink.json
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\Capa_Datos.dll
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\refint\Capa_Datos.dll
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\Capa_Datos.pdb
+C:\Users\USER\source\repos\DAS-Project\Capa_Datos\obj\Debug\net6.0\ref\Capa_Datos.dll

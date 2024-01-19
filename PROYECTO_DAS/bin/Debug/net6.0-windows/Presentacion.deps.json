@@ -9,6 +9,7 @@
       "Presentacion/1.0.0": {
         "dependencies": {
           "CapaNegocios": "1.0.0",
+          "Capa_Datos": "1.0.0",
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {

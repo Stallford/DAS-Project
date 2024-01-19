@@ -246,6 +246,7 @@
             ForeColor = SystemColors.ControlText;
             Name = "FormCalendario";
             Text = "FormCalendario";
+            Load += FormCalendario_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
