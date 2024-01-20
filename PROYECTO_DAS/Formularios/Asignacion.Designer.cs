@@ -362,7 +362,7 @@
             Controls.Add(groupBox3);
             Controls.Add(groupBox1);
             Name = "Asignacion";
-            Text = "Asignacion";
+            Text = "Asignación";
             Load += Asignacion_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

@@ -279,7 +279,7 @@
             Controls.Add(btnGuardar);
             Controls.Add(btnNuevo);
             Name = "FormRegistro";
-            Text = "FormRegistro";
+            Text = "Registro de Arbitros";
             Load += FormRegistro_Load;
             ((System.ComponentModel.ISupportInitialize)dgvArbitro).EndInit();
             groupBox1.ResumeLayout(false);

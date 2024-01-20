@@ -245,7 +245,7 @@
             Controls.Add(btnGuardar);
             ForeColor = SystemColors.ControlText;
             Name = "FormCalendario";
-            Text = "FormCalendario";
+            Text = "Registro de Calendario";
             Load += FormCalendario_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);

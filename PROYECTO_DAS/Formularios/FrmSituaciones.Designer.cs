@@ -261,7 +261,7 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "FrmSituaciones";
-            Text = "FrmSituaciones";
+            Text = "Registro de Situaciones";
             Load += FrmSituaciones_Load;
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();

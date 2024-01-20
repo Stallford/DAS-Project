@@ -139,7 +139,7 @@
             Controls.Add(btnCalendario);
             Controls.Add(btnRegistro);
             Name = "FormMenu";
-            Text = "FormMenu";
+            Text = "Menu";
             Load += FormMenu_Load;
             ResumeLayout(false);
         }

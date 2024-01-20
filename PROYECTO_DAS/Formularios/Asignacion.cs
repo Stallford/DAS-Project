@@ -28,7 +28,7 @@ namespace PROYECTO_DAS
             try
             {
                 bool flag = true;
-                
+
                 // Abrir la conexión a la base de datos
                 conexion.Open();
 
@@ -43,11 +43,11 @@ namespace PROYECTO_DAS
 
                 //if (!GetIdPartido(Calendario))
                 //{
-                    // Obtener y mostrar la información para el primer ID
-                    MostrarInformacion(id1, txtNombres, txtApellidos, txtCorreo);
-                    // Obtener y mostrar la información para el segundo ID
-                    MostrarInformacion(id2, txtNombres1, txtApellidos1, txtCorreo1);
-                    MostrarCalendario(Calendario, txtLocal, txtVisitante, txtFecha, txtLugar, txtHora);
+                // Obtener y mostrar la información para el primer ID
+                MostrarInformacion(id1, txtNombres, txtApellidos, txtCorreo);
+                // Obtener y mostrar la información para el segundo ID
+                MostrarInformacion(id2, txtNombres1, txtApellidos1, txtCorreo1);
+                MostrarCalendario(Calendario, txtLocal, txtVisitante, txtFecha, txtLugar, txtHora);
                 //}
             }
             catch (Exception ex)
@@ -205,7 +205,7 @@ namespace PROYECTO_DAS
             try
             {
                 cmd = new SqlCommand(
-                    "INSERT INTO AsignacionArbitros (idArbitroPrincipal, idArbitroSustituto, idPartido) VALUES (@idArbitroMain, @idArbitroSupport, @idPlay)",conexion);
+                    "INSERT INTO AsignacionArbitros (idArbitroPrincipal, idArbitroSustituto, idPartido) VALUES (@idArbitroMain, @idArbitroSupport, @idPlay)", conexion);
                 // Establecer parámetros para la actualización
                 cmd.Parameters.AddWithValue("@idArbitroMain", id1);
                 cmd.Parameters.AddWithValue("@idArbitroSupport", id2);
