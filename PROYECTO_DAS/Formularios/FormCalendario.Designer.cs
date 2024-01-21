@@ -63,6 +63,7 @@
             dataGridView1.GridColor = Color.FromArgb(30, 37, 40);
             dataGridView1.Location = new Point(10, 317);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(779, 180);

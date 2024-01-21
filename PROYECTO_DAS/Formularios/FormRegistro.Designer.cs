@@ -65,6 +65,7 @@
             dgvArbitro.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvArbitro.Location = new Point(17, 205);
             dgvArbitro.Name = "dgvArbitro";
+            dgvArbitro.ReadOnly = true;
             dgvArbitro.RowHeadersWidth = 51;
             dgvArbitro.RowTemplate.DefaultCellStyle.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             dgvArbitro.RowTemplate.Height = 25;
